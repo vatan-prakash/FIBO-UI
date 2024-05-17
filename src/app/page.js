@@ -6,7 +6,7 @@
 //     <div className="bg-[#242424] px-6 ">
 //       <div className="h-[78px] bg-[#0E77D9] mt-[40px] mb-[20px] pt-2 rounded-[12px] border-[1px]">
 //         <div className="">
-//             <img src=''/>
+//             <Image src=''/>
 //         </div>
 //         <div className="">
 //         Your daily goal almost done
@@ -18,7 +18,7 @@
 //             <div className="flex justify-between h-[28px] py-1">
 //               <div className="text-[17px] text-[white]">Today's Goal</div>
 //               <div>
-//                 <img src="/./heart.svg" />
+//                 <Image src="/./heart.svg" />
 //               </div>
 //             </div>
 
@@ -26,13 +26,13 @@
 //               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
 //                 <div className="flex justify-between w-full  h-[32px]">
 //                   <div className="flex justify-between gap-3">
-//                     <img src="/work.svg" />
+//                     <Image src="/work.svg" />
 //                     <div className="text-[16px] text mt-1 text-[white]">
 //                       Workout for 20 Mins
 //                     </div>
 //                   </div>
 //                   <div>
-//                     <img src="/wdonetick.svg" />
+//                     <Image src="/wdonetick.svg" />
 //                   </div>
 //                 </div>
 //               </div>
@@ -40,13 +40,13 @@
 //               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
 //                 <div className="flex justify-between w-full  h-[32px]">
 //                   <div className="flex justify-between gap-3">
-//                     <img src="/readbook.svg" />
+//                     <Image src="/readbook.svg" />
 //                     <div className="text-[16px] text mt-1 text-[white]">
 //                     Read book for 15 mins
 //                     </div>
 //                   </div>
 //                   <div>
-//                     <img src="/readbooktick.svg" />
+//                     <Image src="/readbooktick.svg" />
 //                   </div>
 //                 </div>
 //               </div>
@@ -54,13 +54,13 @@
 //               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
 //                 <div className="flex justify-between w-full  h-[32px]">
 //                   <div className="flex justify-between gap-3">
-//                     <img src="/walk.svg" />
+//                     <Image src="/walk.svg" />
 //                     <div className="text-[16px] text mt-1 text-[white]">
 //                     30 mins walk
 //                     </div>
 //                   </div>
 //                   <div>
-//                     <img src="/walktick.svg" />
+//                     <Image src="/walktick.svg" />
 //                   </div>
 //                 </div>
 //               </div>
@@ -68,13 +68,13 @@
 //               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
 //                 <div className="flex justify-between w-full  h-[32px]">
 //                   <div className="flex justify-between gap-3">
-//                     <img src="/sleep.svg" />
+//                     <Image src="/sleep.svg" />
 //                     <div className="text-[16px] text mt-1 text-[white]">
 //                     Sleep at 11 sharp
 //                     </div>
 //                   </div>
 //                   <div>
-//                     <img src="/sleeptick.svg" />
+//                     <Image src="/sleeptick.svg" />
 //                   </div>
 //                 </div>
 //               </div>
@@ -82,13 +82,13 @@
 //               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
 //                 <div className="flex justify-between w-full  h-[32px]">
 //                   <div className="flex justify-between gap-3">
-//                     <img src="/drink.svg" />
+//                     <Image src="/drink.svg" />
 //                     <div className="text-[16px] text mt-1 text-[white]">
 //                     Drink 3L water
 //                     </div>
 //                   </div>
 //                   <div>
-//                     <img src="/drinktick.svg" />
+//                     <Image src="/drinktick.svg" />
 //                   </div>
 //                 </div>
 //               </div>
@@ -147,7 +147,7 @@ export default function Home() {
             <div className="flex justify-between h-[28px] py-1">
               <div className="text-[17px] text-[white]">Today's Goal</div>
               <div>
-                <img src="/./heart.svg" />
+                <Image src="/./heart.svg" alt="Page  Icon"/>
               </div>
             </div>
 
@@ -155,13 +155,13 @@ export default function Home() {
               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
                 <div className="flex justify-between w-full  h-[32px]">
                   <div className="flex justify-between gap-3">
-                    <img src="/work.svg" />
+                    <Image src="/work.svg" alt="Page  Icon"/>
                     <div className="text-[16px] text mt-1 text-[white]">
                       Workout for 20 Mins
                     </div>
                   </div>
                   <div>
-                    <img src="/wdonetick.svg" />
+                    <Image src="/wdonetick.svg " alt="Page  Icon" />
                   </div>
                 </div>
               </div>
@@ -169,13 +169,13 @@ export default function Home() {
               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
                 <div className="flex justify-between w-full  h-[32px]">
                   <div className="flex justify-between gap-3">
-                    <img src="/readbook.svg" />
+                    <Image src="/readbook.svg" alt="Page  Icon"/>
                     <div className="text-[16px] text mt-1 text-[white]">
                       Read book for 15 mins
                     </div>
                   </div>
                   <div>
-                    <img src="/readbooktick.svg" />
+                    <Image src="/readbooktick.svg" alt="Page  Icon"/>
                   </div>
                 </div>
               </div>
@@ -183,13 +183,13 @@ export default function Home() {
               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
                 <div className="flex justify-between w-full  h-[32px]">
                   <div className="flex justify-between gap-3">
-                    <img src="/walk.svg" />
+                    <Image src="/walk.svg" alt="Page  Icon"/>
                     <div className="text-[16px] text mt-1 text-[white]">
                       30 mins walk
                     </div>
                   </div>
                   <div>
-                    <img src="/walktick.svg" />
+                    <Image src="/walktick.svg" alt="Page  Icon"/>
                   </div>
                 </div>
               </div>
@@ -197,13 +197,13 @@ export default function Home() {
               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
                 <div className="flex justify-between w-full  h-[32px]">
                   <div className="flex justify-between gap-3">
-                    <img src="/sleep.svg" />
+                    <Image src="/sleep.svg" alt="Page  Icon"/>
                     <div className="text-[16px] text mt-1 text-[white]">
                       Sleep at 11 sharp
                     </div>
                   </div>
                   <div>
-                    <img src="/sleeptick.svg" />
+                    <Image src="/sleeptick.svg" alt="Page  Icon"/>
                   </div>
                 </div>
               </div>
@@ -211,13 +211,13 @@ export default function Home() {
               <div className="h-[65px] mt-2 p-2 pt-4 rounded-[12px] border-[1px] border-[#fffffff6]">
                 <div className="flex justify-between w-full  h-[32px]">
                   <div className="flex justify-between gap-3">
-                    <img src="/drink.svg" />
+                    <Image src="/drink.svg" alt="Page  Icon"/>
                     <div className="text-[16px] text mt-1 text-[white]">
                       Drink 3L water
                     </div>
                   </div>
                   <div>
-                    <img src="/drinktick.svg" />
+                    <Image src="/drinktick.svg" alt="Page  Icon"/>
                   </div>
                 </div>
               </div>
