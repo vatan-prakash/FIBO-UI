@@ -25,7 +25,7 @@ export default function Home() {
         <div className="mid w-full h-[475px] bg-[#242424]">
           <div>
             <div className="flex justify-between h-[28px] py-1">
-              <div className="text-[17px] text-[white]">Today's Goal</div>
+              <div className="text-[17px] text-[white]">Today Goals</div>
               <div>
                 <Image src="/heart.svg" alt="Heart Icon" width={24} height={24} />
               </div>
